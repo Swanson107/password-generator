@@ -1,7 +1,7 @@
 html,
 body {
     background-color: lightpink;
-    margin: auto;
+
     min-height: 100vh;
     margin: 0;
     overflow: hidden;
@@ -10,8 +10,6 @@ body {
     flex-direction: column;
 }
 
-.main-container {
-}
 
 .header {
     background-color: aquamarine;
@@ -21,17 +19,16 @@ body {
     height:75px;
 }
 .content {
+    margin-top: 6.25%;
     margin-left: 25%;
     max-width: 50%;
     background-color: blue;
     height: 450px;
     width: 50%;
-    margin-top: 1rem;
-    margin-bottom: 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;;
+    justify-content: space-evenly
 
 }
 
@@ -42,6 +39,14 @@ body {
 #gen-input {
     display:flex;
     flex-direction: column;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    max-width: 50%;
 }
 
 .footer {
