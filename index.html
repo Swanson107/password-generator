@@ -19,10 +19,14 @@
         </div>
         <div class="content">
             <div class="gen-container">
-                <h4>Enter a number up to 64 to generate a random secure password</h4>
-                <p>Enter desired password length</p>
+                <div id="text">
+                    <h4>Enter a number to generate a random secure password</h4>
+                    <p class="desc">Enter desired password length</p>
+                    <p class="desc">Min: 6</p>
+                    <p class="desc">Max: 64</p>
+                </div>
                 <div id="gen-input">
-                    <input type="number" id="input" min="6" max="64" placeholder="max: 64">
+                    <input type="number" id="input" min="6" max="64">
                     <button id="input-button">Submit</button>
                 </div>
             </div>

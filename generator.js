@@ -5,6 +5,9 @@ function passGen() {
     if (numInput.value > 64) {
         numInput.value = 64;
     }
+    if (numInput.value < 6) {
+        numInput.value = 6;
+    }
     console.log("GENNING");
     passField.textContent = "";
     newPass = "";
@@ -16,6 +19,7 @@ function passGen() {
     console.log(newPass)
     passField.textContent = newPass;
 }
+
 
 
 const genText = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
