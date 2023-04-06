@@ -19,11 +19,12 @@ body {
     height:75px;
 }
 .content {
-    margin-top: 6.25%;
+    margin-top: 3%;
     margin-left: 25%;
     max-width: 50%;
     background-color: blue;
-    height: 450px;
+    border-radius: 24px;
+    height: 550px;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -33,12 +34,24 @@ body {
 }
 
 .gen-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
     max-width: 50%;
+    border-radius: 24px;
     background-color: lightgray;
 }
 #gen-input {
     display:flex;
     flex-direction: column;
+    width: 50%;
+}
+#input-button {
+    width: 50%;
+    margin-left: 25%;
+    display:flex;
+    justify-content: center;
 }
 
 .result{
@@ -46,10 +59,17 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: grey;
-    max-width: 50%;
+    max-width: 75%;
+    border-radius: 24px;
+    padding: 6px;
 }
 
 .footer {
     background-color: orange;
     margin-top: auto;
+    
+}
+#footer-left {
+    margin-left: 200px;
+    
 }
